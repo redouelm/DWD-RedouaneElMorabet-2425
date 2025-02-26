@@ -1,16 +1,3 @@
-/*const prio = document.querySelector('#selPriority');
-const dline = document.querySelector('#datDeadline');
-const taak = document.querySelector('#txtTask');
-const btn = document.querySelector('#btnSubmit');
-const Taakveld = document.querySelector('#tasks');
-
-btn.addEventListener('submit', function () {
-
-    let ingegevenTaak = taak;
-    console.log(ingegevenTaak.value);
-    Taakveld.innerHTML = ingegevenTaak.value;
-});*/
-
 document.querySelector('#frmTask').addEventListener('submit', function (event) {
     event.preventDefault();
 
