@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ajax example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        button, input, select {
+          padding: 5px 10px;
+        }
+        button {
+          cursor: pointer;
+        }
+        #controls {
+          margin-bottom: 20px;
+        }
+        #cats img {
+          height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+      <p>
+        <select id="selCategory">
+          <option value="1" selected>hats</option>
+          <option value="2">space</option>
+          <option value="5">boxes</option>
+          <option value="7">ties</option>
+          <option value="15">clothes</option>
+        </select>
+      </p>
+      <p>
+        <input type="number" id="inpLimit" min="1" max="10" value="3">
+      </p>
+      <button type="button" id="btnGo">can I haz cat pics plz!</button>
+    </div>
+    <div id="cats"></div>
+</body>
+</html>
+
+
+

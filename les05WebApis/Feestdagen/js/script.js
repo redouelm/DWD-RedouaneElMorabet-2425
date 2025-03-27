@@ -6,7 +6,7 @@ const datePic = document.querySelector('#datepicker');
 const sbmt = document.querySelector('#buttonCheck');
 const rslt = document.querySelector('#resultaat');
 
-const API_KEY = ''; 
+const API_KEY = '1265251669cb4927a8b17feca667a6e3'; 
 const COUNTRY_CODE = 'BE'; 
 
 // ===========================================
