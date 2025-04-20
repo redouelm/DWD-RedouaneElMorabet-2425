@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Redouane El Morabet - Simple Chatroom</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Simple chatroom</h1>
+    </header>
+    <main>
+        <button type="button" id="toggle-dark-mode">Toggle Dark Mode</button>
+        <div id="chat-box"></div>
+
+        <form id="chat-form">
+            <label for="email">YOUR EMAIL *</label>
+            <input type="email" id="email" required>
+
+            <label for="message">YOUR COMMENT *</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit">ADD COMMENT</button>
+        </form>
+
+        <div id="gif-modal" class="modal">
+            <div class="modal-content">
+                <p id="gif-search-info"></p>
+                <div id="gif-container"></div>
+                <div class="gif-controls">
+                    <button type="button" id="prev-gif">&lt; previous</button>
+                    <button type="button" id="next-gif">next &gt;</button>
+                    <button type="button" id="select-gif">SELECT</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
